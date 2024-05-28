@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(128, 199, 175);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin: auto;
+
+}
+main{
+    background-color: aliceblue;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 15px rgb(12, 20, 12);
+}
+h1{
+    color: green;
+    text-align: right;
+}
+#titulo-principal{
+    background-color: darkgreen;
+    color: aliceblue;
+    text-align: center;
+}
+.texto{
+    text-align: justify;
+    text-indent: 15px;
+}
+.basico {
+    color:rgb(75, 173, 75);
+    font-weight: bold;
+}
+.intermediario{
+    color: yellowgreen;
+    font-weight:bold ;
+    font-style: italic;
+}
+.avançado{
+    color: rgb(141, 38, 38);
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+.destaque{
+    background-color: yellowgreen;
+}
+

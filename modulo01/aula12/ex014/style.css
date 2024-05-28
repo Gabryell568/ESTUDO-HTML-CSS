@@ -1,0 +1,12 @@
+body{
+    background-color:aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+h1{
+    background-color: blue;
+}
+p{
+    text-align: justify;
+}

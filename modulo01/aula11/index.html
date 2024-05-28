@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>imagem Dinamica</h1>
+    <p>use esse site em varias telas diferentes.</p>
+    <picture>
+      <source media="(max-width:750px )" srcset="imagens/foto-P.jpg" type="image/jpg">
+      <source media="(max-width:1050px )" srcset="imagens/foto-M.jpg" type="image/jpg">
+      <img src="imagens/foto-G.jpg" alt="imagem flexivel">
+    </picture>
+
+  <h1>Reproduzindo audio</h1>
+  <p>aprendendo a colocar audios</p>
+  <audio preload="metadata" controls loop>
+    <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    <source src="midia/guanacast-33.ogg" type="audio/ogg">
+    <source src="midia/guanacast-33.wav" type="audio/wav">
+    <p>seu navegador não é capaz de reproduzir audio</p>
+  </audio>
+</body>
+</html>
