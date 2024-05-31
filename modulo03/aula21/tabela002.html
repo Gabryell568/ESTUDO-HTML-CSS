@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white
+        }
+        .nun{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Anatormia para Tabelas Grandes
+            table
+                Thead
+                    tr, td, th
+                Tbody
+                    tr, td, th
+                Tfoot
+                    tr, td ,th
+    -->
+    <h1>Uso de Tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="nun">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="nun">48.548.305</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="nun">847.525</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="nun"><strong>97.687.647</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
