@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    td{
+        width: 400px;
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    .color-transparente{
+        background-color: rgba(0, 40, 56, 0.767);
+        color: white;   
+    }
+    .color-solid{
+        background-color: rgb(13, 49, 63);
+    }
+</style>
+<body>
+        <h1>Minha Primeira Tabela</h1>
+        <!--
+            HIERARQUIA DE TABELA
+            TABLE = TABELA
+                TABLE ROW = LINHA DA TABELA
+                    TABLE HEADER = CABEÇALHO DA TABELA
+                        TABLE DATA = DADOS DA TABELA
+        -->
+        <Table>
+            <tr class="color-transparente">
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr class="color-solid">
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+            </tr>
+            <tr class="color-transparente">
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+            </tr>
+        </Table>
+        <h2>Agora no modo Vertical</h2>
+        <table>
+            <tr class="color-solid">
+                <td>A1</td>
+                <TD>B1</TD>
+                <TD>C1</TD>
+            </tr>
+            <TR class="color-transparente">
+                <TD>A2</TD>
+                <TD>B2</TD>
+                <TD>C2</TD>
+            </TR>
+            <TR class="color-solid">
+                <TD>A3</TD>
+                <TD>B3</TD>
+                <TD>C3</TD>
+            </TR>
+        </table>
+</body>
+</html>
