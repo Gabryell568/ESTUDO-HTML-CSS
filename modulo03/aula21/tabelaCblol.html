@@ -19,7 +19,17 @@
         }
         table{
             margin:auto;
-            border: 2px solid rgba(0, 0, 0, 0.534);
+            position: relative;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight:bolder;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.753);
+            color: white;
+            position: sticky;
+            top:0;
+            
         }
         td,th{
             border: 3px solid rgb(255, 255, 255);
@@ -30,16 +40,9 @@
             color: black;
             border-radius: 10px;
         }
-        main{
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            justify-content: center;
-            align-items: center;
-            background-color: white;
-            width: 700px;
-            margin: 0px 0px 0px 300px;
-            padding: 10px;
+        a{
+            text-decoration: none;
+            color: white;
         }
         .logo-tamanho{
             width: 50px;
@@ -156,21 +159,20 @@
     </style>
 </head>
 <body>
-    <h1 id="titulo-principal">Tabela Cblol - 2024</h1>
-    <main>
         <table>
+            <caption>Tabela CBLOL - 2024</caption>
           <thead id="table-head">
             <tr class="cabecalho">
-                <th class="logo-times">Times</th> <!--Linha#1-->
-                <th>Nomes</td>
-                <th>Vitorias</td>
-                <th>Derrotas</th>
-                <th>Classificação</th>
+                <th scope="col" class="logo-times" style="width: 70px;">Times</th> <!--Linha#1-->
+                <th scope="col">Nomes</td>
+                <th scope="col">Vitorias</td>
+                <th scope="col">Derrotas</th>
+                <th scope="col">Classificação</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-                <td id="logo-fluxo"></td> <!--Linha#2-->
+                <td id="logo-fluxo"><a href="https://lol.fandom.com/wiki/Fluxo" target="_blank">.</a></td> <!--Linha#2-->
                 <td class="Nome">Fluxo</td>
                 <td>0</td>
                 <td>0</td>
@@ -243,6 +245,5 @@
           <tfoot>
         
           </tfoot>
-    </main>
 </body>
 </html>
