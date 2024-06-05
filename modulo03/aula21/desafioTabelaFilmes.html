@@ -28,6 +28,7 @@
         font-size: 1.3em;
         font-weight: bold;
         padding: 10px;
+        background-color: lightgray;
     }
     th, td{
         border: 1px solid rgb(255, 255, 255);
@@ -48,12 +49,12 @@
             <tr>
                 <th>Grupos</th>
                 <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="3" class="M">Mulheres</th>
+                <th rowspan="3" class="M" scope="rowgroup">Mulheres</th>
                 <td>Ana Maria</td>
                 <td>Aliens</td>
                 <td>Rambo</td>
@@ -72,7 +73,7 @@
                 <td>Big hero</td>
             </tr>
             <tr>
-                <th rowspan="3" class="H">Homens</th>
+                <th rowspan="3" class="H" scope="rowgroup">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocaveis</td>
                 <td>Amnesia</td>
