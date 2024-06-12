@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<style>
+    .background-name{
+        background-color: black;
+        color: white;
+        width: 250px;
+        padding: 8px;
+        border-radius: 15px;
+    }
+</style>
+<body>
+    <h1>teste de Formulario</h1>
+    <form autocomplete="on" action="cadastro.php" method="post">
+        <div class="background-name">
+            <p>
+                <label for="inome">Nome *</label>
+                <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+            </p>
+        </div>
+        <p>
+            <label for="imedia">Média *</label>
+            <input type="number" name="media" id="imedia" required minlength="0" maxlength="10" placeholder="0 a 10" step="0.5">
+        </p>
+        <p>
+            <label for="imonth">Periodo Letivo</label>
+            <input type="month" name="month" id="imonth" value="2024-07">
+        </p>
+        <p>
+            <label for="idate">Dia da prova</label>
+            <input type="date" name="date" id="idate" value="2024-07-20">
+        </p>
+        <p>
+            <label for="itime">Horario da Prova</label>
+            <input type="time" name="time" id="itime">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Deletar">
+        </p>
+    </form>
+</body>
+</html>
