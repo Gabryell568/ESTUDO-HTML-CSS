@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color, range e file</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+        text-align: center;
+    }
+    body{
+        background-color: rgb(57, 133, 57);
+    }
+    form{
+        width: 500px;
+        height: 500px;
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+        padding: 10px;
+        border-radius: 15px;
+    }
+</style>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="cadastro.php" method="POST">
+        <div class="Formulario">
+            <label for="icor">Selecione a cor</label>
+            <input type="color" name="cor" id="icor" value="#ff0000">
+            <br>
+        </div>
+
+        <div class="Formulario">
+            <label for="iSatis">Nivel de Satisfação</label>
+            <input type="range" name="Satis" id="iSatis">
+        </div>
+        <div>
+            <label for="ifoto">Foto de Perfil</label>
+            <input type="file" name="foto" id="ifoto">
+        </div>
+    </form>
+</body>
+</html>
