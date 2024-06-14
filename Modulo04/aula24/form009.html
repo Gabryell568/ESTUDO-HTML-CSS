@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="inun">Número</label>
+            <input type="range" name="nun" id="inun" min="0" max="10" value="5" oninput="ival.innerHTML = Number(inun.value)">
+            <output id="ival">5</output>
+        </p>
+        
+    </form>
+</body>
+</html>
