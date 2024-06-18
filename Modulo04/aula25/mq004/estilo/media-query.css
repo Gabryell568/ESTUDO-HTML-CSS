@@ -11,10 +11,28 @@ Grandes telas: acima de 1200px
 */
 
 @media print{
-
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main{
+        border: 2px solid black;
+    }
+    main > h1{
+        text-shadow: none;
+        color: black;
+    }
+            img#phone{ display: none;}
+            img#tablet{ display: none;}
+            img#print{display:block;}
+            img#pc{display: none;}
+            img#tv{display: none;}
+    img#print{
+        display:block;
+        margin: auto;
+    }
 }
 
-@media screen and (min-width:769px) and (max-width:992px) { /*Tablet */
+@media screen and (min-width:700px) and (max-width:900px) { /*Tablet */
     html{
         background-image: url(../imagens/back-tablet.jpg);
     }
@@ -29,7 +47,7 @@ img#table{
     margin: auto;
 }
 
-@media screen and (min-width:993px) and (max-width: 1200px) { /*desktop */
+@media screen and (min-width:901px) and (max-width: 1200px) { /*desktop */
     html{
         background-image: url(../imagens/back-pc.jpg);
     }
@@ -44,7 +62,7 @@ img#pc{
 }
 }
 
-@media screen and (min-width:1200) { /*Grandes telas */
+@media screen and (min-width:1201px) {
     html{
         background-image: url(../imagens/back-tv.jpg);
     }
@@ -56,5 +74,8 @@ img#pc{
     img#tv{
         display: block;
         margin: auto;
+    }
+    main{
+        width: 700px;
     }
 }
