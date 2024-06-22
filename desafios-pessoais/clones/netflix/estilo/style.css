@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background: black url(../imagens/Netflix-Background.jpg) center center no-repeat;
+    background-size: cover;
+    
+}
+div#header img{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 75px;
+}
+div#form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.699);
+    padding: 20px;
+}
+h1#titulo{
+    text-align: left;
+    margin-left: -200px;
+    color: white;
+}
+div > input[type=text] {
+    background-color: green;
+}
+div#input-email{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+div#input-password{
+
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#btn-entrar{
+    width: 100%;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+#btn-entrar:hover{
+    background-color: darkred;
+}
+#btn-acess{
+    width: 100%;
+    background-color: rgba(94, 93, 93, 0.568);
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+#btn-acess:hover{
+    background-color: grey;
+}
+p.paragraf{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+p >a{
+    text-decoration: none;
+    color: white;
+}
+p#reset-password{
+    font-size: 0.8em;
+}
+
