@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --dark-colorBlue50:#221F73 ;
+    --dark-colorBlue100:#191659 ;
+    --dark-colorBlue150: #090A26;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Sriracha", cursive;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../imagens/space-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+div#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 630px;
+    width: 280px;
+    background-color: #090a26c7;
+    color: white;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+}
+
+div#left-img{
+    background-image: url(../imagens/astronauta.jpg);
+    height: 250px;
+    background-position: top center;
+    background-size: cover;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.315);
+    background-attachment: fixed;
+    border-radius: 10px;
+}
+div#right-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+#btn-acess{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    width: 95%;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+#btn-acess:hover{
+    background-color: #221F73;
+    color: yellow;
+}
+#reset-password{
+    text-decoration: none;
+    text-align: right;
+}
+#p{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+a{
+    color:#221F73;
+}
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
