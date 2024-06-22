@@ -59,6 +59,7 @@ div#register p{
 }
 #btn-register:hover{
     background-color: #05232E;
+    color: white;
 }
 a{
     text-decoration: none;
