@@ -6,7 +6,7 @@
     padding: 0px;
     font-family: "Roboto Mono", monospace;
     box-sizing: border-box;
-    color: white;
+    
 }
 html, body{
     height: 100vh;
@@ -31,6 +31,8 @@ div#container{
 div#container h1{
     text-align: center;
     padding: 8px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.589);
 }
 div#register{
     display: flex;
@@ -57,4 +59,12 @@ div#register p{
 }
 #btn-register:hover{
     background-color: #05232E;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    text-decoration: underline;
+    color: #05232E;
 }
