@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo/style1.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <div id="container">
+            <div id="form">
+                <h1>Login</h1>
+                <form method="post">
+                    <div id="user-pass">
+                        <div id="user">
+                            <label for="iuser">
+                                <p>nome</p>
+                                <i class="fa-solid fa-user"></i>
+                            </label>
+                            <input type="text" name="user" id="iuser" required placeholder="username" min="5" max="25">
+                        </div>
+                        <div id="password">
+                            <label for="ipassword">
+                                <p>senha</p>
+                                <i class="fa-solid fa-lock"></i>
+                            </label>
+                            <input type="password" name="password" id="ipassword" required placeholder="password" min="6" max="12">
+                        </div>
+                    </div>
+                    <div id="radio">
+                        <input type="radio" name="remenber" id="iremenber">
+                        <label for="iremenber">remenber me</label>
+                        <a href="#">forget password?</a>
+                    </div>
+                    <div id="botão-login">
+                        <button type="submit" id="btn-acess">Login</button>
+                            <p>Don't have a account? <a href="register.html" id="register" target="_self" rel="">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

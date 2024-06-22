@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo/register.css">
+</head>
+<body>
+    <main>
+        <div id="container">
+            <div id="register">
+                <h1>Register</h1>
+                <form method="post">
+                    <div id="register">
+                        <div>
+                            <label for="iname">
+                                <p>name</p>
+                            </label>
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" name="name" id="iname" required placeholder="your name" min="5" max="25">
+                        </div>
+                        <div>
+                            <label for="iemail">
+                                <p>email</p>
+                            </label>
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" name="email" id="iemail" required placeholder="your email" min="8" max="25" >
+                        </div>
+                        <div>
+                            <label for="ipassword">
+                                <p>password</p>
+                            </label>
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" name="password" id="ipassword" placeholder="new password" required min="4" max="12">
+                        </div>
+                    </div>
+                    <div>
+                        <button type="submit" id="btn-register">Register</button>
+                        <p><a href="index.html" target="_self" rel="next">Sing in</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

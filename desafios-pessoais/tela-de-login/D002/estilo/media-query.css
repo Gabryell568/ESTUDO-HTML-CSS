@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+@media screen and (min-width:602px) {
+    div#container{
+        width: 400px;
+        transform: scale(1s);
+    }
+}
