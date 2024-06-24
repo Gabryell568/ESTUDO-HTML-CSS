@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 500px) and (max-width:668px) {
+    div#container{
+    width: 60%;
+
+    }
+    div#left-login{
+        
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    div#right-img{
+        display: none;
+    }
+}
+@media screen and (min-width:669) {
+    div#container{
+        width: 700px;
+    }
+}
