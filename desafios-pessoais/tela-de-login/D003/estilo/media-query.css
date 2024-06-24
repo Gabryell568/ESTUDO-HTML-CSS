@@ -1,12 +1,11 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 400px) and (max-width:602px) {
+@media screen and (min-width: 500px) and (max-width:762px) {
     div#container{
     width: 60%;
     height: 70%;
     }
     div#left-login{
-        
         width: 100%;
         border-radius: 10px 10px 10px 10px;
     }
