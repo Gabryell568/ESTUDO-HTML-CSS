@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 500px) and (max-width:668px) {
+@media screen and (min-width: 400px) and (max-width:602px) {
     div#container{
     width: 60%;
 
