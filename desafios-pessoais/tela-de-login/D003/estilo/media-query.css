@@ -3,7 +3,7 @@
 @media screen and (min-width: 400px) and (max-width:602px) {
     div#container{
     width: 60%;
-
+    height: 70%;
     }
     div#left-login{
         
