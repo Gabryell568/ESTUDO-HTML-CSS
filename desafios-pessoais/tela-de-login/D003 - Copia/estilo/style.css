@@ -22,7 +22,7 @@ div#container{
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-image: linear-gradient(to bottom, rgb(50, 177, 236), rgb(24, 104, 107));
+    background-image: linear-gradient(to bottom, #01AAEF,#027FE9);
     border-radius: 20px;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.418);
 }
