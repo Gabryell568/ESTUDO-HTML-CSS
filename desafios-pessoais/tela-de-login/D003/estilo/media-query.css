@@ -9,7 +9,7 @@
         top:50%;
         left: 50%;
         transform: translate(-50%,-50%);
-        background-image: linear-gradient(to bottom, #01AAEF,#027FE9);
+        background-color: white;
         border-radius: 20px;
         box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.418);
     }
@@ -73,18 +73,10 @@
     }
 }
 @media screen and (min-width: 769px) {
-    div#container{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 600px;
-        height: 450px;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.329);
-        
-    }
+        div#container{
+            width: 700px;
+        }
+
     div#left-login{
         width: 60%;
         background-image: linear-gradient(to bottom, #01AAEF,#027FE9);
@@ -92,7 +84,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 30px;
+
         border-radius: 10px 36px 36px 10px;
     }
     div#left-login h1{
@@ -140,7 +132,6 @@
     }
     div#forget a:hover{
         text-decoration: underline;
-    
     }
     #btn-submit{
         margin-top: 30px;
