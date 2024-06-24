@@ -39,6 +39,7 @@ div#left-login{
     align-items: center;
     background-image: linear-gradient(to bottom, #01AAEF,#027FE9);
     border-radius: 15px;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.384);
 }
 div#left-login h1{
     text-align: center;
