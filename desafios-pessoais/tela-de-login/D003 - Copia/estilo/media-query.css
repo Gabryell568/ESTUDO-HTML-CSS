@@ -1,78 +1,10 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 500px) and (max-width:762px) {
-    div#container{
-        width: 70%;
-        height: 400px;
-        background-color: white;
-        position: absolute;
-        top:50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        background-image: linear-gradient(to bottom, #01AAEF,#027FE9);
-        border-radius: 20px;
-        box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.418);
+@media screen and (min-width:580px) and (max-width: 768px) {
+    ::-webkit-scrollbar{
+        height: 0px;
+        width: 0px;
     }
-    div#left-login{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    div#left-login h1{
-        text-align: center;
-        color: white;
-        padding: 5px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.466);
-    }
-    div#user-box{
-        padding: 10px;
-    }
-    div#user-box input{
-        padding: 5px;
-        width: 90%;
-        border-radius: 10px;
-        border: none;
-    }
-    div#password-box{
-        padding: 10px;
-    }
-    div#password-box input{
-        padding: 5px;
-        border-radius: 10px;
-        width: 90%;
-        border: none;
-    }
-    div#forget{
-        display: inline-block;
-        margin-left: 20px;
-    }
-    div#forget a{
-        text-decoration: none;
-        color: white;
-    }
-    div#forget a:hover{
-        text-decoration: underline;
-    }
-    div#right-img{
-        display: none;
-    }
-    #btn-submit{
-        width: 100%;
-        padding: 8px;
-        margin-top: 30px;
-        border-radius: 10px;
-        border: none;
-        cursor: pointer;
-        font-weight: bolder;
-    }
-    #btn-submit:hover{
-        background-color: rgb(15, 105, 83);
-        color: white;
-    }
-}
-@media screen and (min-width: 763px) {
     div#container{
         position: absolute;
         top: 50%;
