@@ -78,14 +78,18 @@ div#forget a{
 div#forget a:hover{
     text-decoration: underline;
 }
+div#submit{
+    margin-top: 50px;
+}
 #btn-submit{
     width: 100%;
-    padding: 8px;
-    margin-top: 30px;
+    padding: 10px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
     font-weight: bolder;
+    font-size: 1.1em;
+    transition: 0.3s;
 }
 #btn-submit:hover{
     background-color: rgb(15, 105, 83);
