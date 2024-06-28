@@ -33,8 +33,8 @@ div#form{
     padding: 20px;
 }
 h1#titulo{
-    text-align: left;
-    margin-left: -200px;
+    width: 100%;
+    text-align: start;
     color: white;
 }
 div > input[type=text] {

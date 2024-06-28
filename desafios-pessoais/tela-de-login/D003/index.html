@@ -11,7 +11,7 @@
 <body>
     <main>
         <div id="container">
-            <div id="left-login">
+            <div id="left-login" class="normal">
                 <h1>Wellcome</h1>
                 <form method="post">
                     <div id="user-box">
@@ -33,6 +33,9 @@
                             <a href="#">forget password?</a>
                         </div>
                     </div>
+                    <div id="moon">
+                        <i class="fa-solid fa-moon" onclick="darklightMode()"></i>
+                    </div>
                     <div id="submit">
                         <button type="submit" id="btn-submit">Submit</button>
                     </div>
@@ -43,5 +46,16 @@
             </div>
         </div>
     </main>
+    <script>
+        let moon = document.getElementById('left-login')
+
+        function darklightMode(){
+            if(moon.className == "darklightMode !important"){
+                moon.className = "normal"
+            }else{
+                moon.className = "darklightMode !important"
+            }
+        }
+    </script>
 </body>
 </html>

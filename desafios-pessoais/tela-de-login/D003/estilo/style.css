@@ -15,6 +15,7 @@ html,body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: .9s;
 }
 ::-webkit-scrollbar{
     height: 0px;
@@ -31,8 +32,9 @@ div#container{
     background-color: white;
     border-radius: 20px;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.418);
+    transition: 0.5s;
 }
-div#left-login{
+div#left-login, div.normal{
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -40,6 +42,7 @@ div#left-login{
     background-image: linear-gradient(to bottom, #01AAEF,#027FE9);
     border-radius: 15px;
     box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.384);
+    transition: 0.9s;
 }
 div#left-login h1{
     text-align: center;
@@ -94,4 +97,24 @@ div#submit{
 #btn-submit:hover{
     background-color: rgb(15, 105, 83);
     color: white;
+}
+div#moon{
+   text-align: right;
+   display: block;
+   margin-top: 20px;
+}
+div#moon i{
+    cursor: pointer;
+}
+
+
+.darklightMode{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: linear-gradient(to bottom, #000435,#01116d)!important;
+        border-radius: 15px;
+        box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.384);
+        transition: 0.9s;
 }
