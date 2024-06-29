@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <div id="container">
+            <div id="img">
+                <h1>Wellcome to the website</h1>
+            </div>
+            <div id="form">
+                <form method="post">
+                    <h1>User Login</h1>
+                    <div class="inputs">
+                            
+                        <input type="email" name="email" id="iemail" required placeholder="Email" min="10" max="30">
+                    </div>
+                    <div class="inputs">
+                        <input type="password" name="pass" id="ipass" required min="4" max="12" placeholder="Password">
+                    </div>
+                    <div id="forgot">
+                        <input type="checkbox" name="remeber" id="remeber">
+                        <label for="remeber">
+                            remeber
+                        </label>
+                        <p><a href="#">forget password?</a></p>
+                    </div>
+                    <div id="submit">
+                        <button type="submit" id="btn-login">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
