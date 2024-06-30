@@ -28,7 +28,7 @@ div#container{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 400px;
 }
 div#box-form{
     background-color: white;
@@ -53,6 +53,9 @@ div#box-email input::placeholder{
 }
 div#box-password{
     margin: 15px;
+}
+div#box-password::placeholder{
+    font-weight: bold;
 }
 #btn-entrar{
     width: 90%;
