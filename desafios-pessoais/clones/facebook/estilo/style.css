@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+body, html{
+    background-color: #F0F2F5;
+}
+div#img-facebook{
+    background: url(../imagens/facebook-logo.png) no-repeat;
+    height: 70px;
+    width: 100%;
+    background-size: contain;
+    
+}
+div#text-img p{
+    font-weight:500;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+div#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+div#box-form{
+    background-color: white;
+    height: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
+}
+div#box-form div.inputs input{
+    display: block;
+    margin: auto;
+    padding: 13px;
+    width: 100%;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.308);
+    border: 1px solid #F0F2F5;
+}
+div#box-email{
+    margin: 15px;
+}
+div#box-email input::placeholder{
+    font-weight: bold;
+}
+div#box-password{
+    margin: 15px;
+}
+#btn-entrar{
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding: 8px;
+    background-color:#1877F2;
+    border-radius:10px ;
+    border: 1px solid #1877F2;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+div#submit p{
+    text-align: center;
+    margin: 15px;
+
+}
+div#submit p >a {
+    text-decoration: none;
+}
+div#submit p >a:hover{
+    text-decoration: underline;
+}
+div#linha{
+    display: block;
+    height: 2px;
+    background-color:#F0F2F5;
+}
+div#newconta{
+    margin: 20px 0px 20px 70px;
+    background-color:#36A420;
+    padding: 12px;
+    width: 55%;
+    display: block;
+    border-radius: 10px;
+}
+div#newconta a{
+    text-decoration: none;
+    color: white;
+}
+div#aside{
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-align: center;
+}
+div#aside a{
+    text-decoration: none;
+    color: black;
+}
